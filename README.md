@@ -149,3 +149,39 @@ We welcome contributions! Please read our contributing guidelines and submit pul
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Features
+- Real estate tokenization on blockchain
+- Smart contract based transactions
+- Secure and transparent property ownership
+
+## Tech Stack
+- Solidity
+- Ethereum
+- Web3
+
+## How to Run
+
+### Prerequisites
+- Node.js installed
+- MetaMask wallet
+- Hardhat or Truffle
+
+### Installation Steps
+```bash
+# Clone the repository
+git clone https://github.com/satyendrapal310-arch/Real-estate-tokenization.git
+
+# Install dependencies
+npm install
+
+# Compile contracts
+npx hardhat compile
+
+# Deploy contracts
+npx hardhat run scripts/deploy.js
+Future Enhancements
+[ ] Property listing marketplace
+[ ] Fractional ownership feature
+[ ] Integration with IPFS for documents
+[ ] Mobile app development
